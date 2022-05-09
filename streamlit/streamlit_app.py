@@ -4,15 +4,16 @@ import json
 import uuid
 import os
 
-# Load filters folders
+# Load folder with SummarizationModel
 model_dir = os.path.join(os.path.dirname( __file__ ), '..', 'src' )
 sys.path.append(model_dir) 
 
 from SummarizationModel import SummarizationModel
 
-#Load language model (if was not already loaded)
+#Load  summarization model
 language_detection_model = SummarizationModel()
 
+# Examples
 examples_dict = {}
 examples_dict['None'] = ''
 examples_dict['Titanic'] = '''Titanic es una película estadounidense dramática de catástrofe de 1997 dirigida y escrita por James Cameron y protagonizada por Leonardo DiCaprio,
@@ -31,6 +32,7 @@ option = st.sidebar.selectbox(
      'Examples',
      examples_dict.keys())
 
+# doc > Input
 doc = st.text_area(
      "Paste your text here and we will make a summary of this",
      value=examples_dict.get(option, ''),
@@ -39,7 +41,7 @@ doc = st.text_area(
 
 if st.button(label="✨ Make me a summary!"):
      
-     
+     # Apply summarization
      summary_doc = language_detection_model.summarize(doc)
           
 st.header('Summary')     
