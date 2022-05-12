@@ -31,22 +31,23 @@
 
 Text summarization is a typical problem, very useful for long documents, books, and articles. With summarization, it is possible to extract the most relevant info and use it for different purposes.
 
-But most of the summarization strategies are only usefull for English text. Here, we are going to implement a Deep Learning model for Multilingual Summarization, compatible with other languages.
+But most of the summarization strategies are only useful for English text. Here, we are going to implement a Deep Learning model for Multilingual Summarization, compatible with other languages.
 
 ## 🎬 Getting Started
 
-You can use this repo installing the requeried libraries with
+If you are going to use the Python funcion in local, you can install this repo with
 
 ```
 pip install -r requirements.txt
 ```
+If you only want to play with the results, go to the [StreamLit web app](https://share.streamlit.io/amloii/inafewwords/main/streamlit/streamlit_app.py)
 
 ## 🎈 Usage <a name="usage"></a>
 
 We pretent this repo can be useful for people with no knowdelege of IA, software development. For this reason, we are going to implement this with two user cases:
 
-- **StreamLit Web App:** A public web app any can use.
-- **Python function:** A python function easy to use in our own scripts.
+- **StreamLit Web App:** A public web app any can use. [Press here](https://share.streamlit.io/amloii/inafewwords/main/streamlit/streamlit_app.py)
+- **Python function:** A python function easy to use in our own scripts. [Press here](https://github.com/Amloii/InAFewWords/blob/main/function/summarize_function.py)
 
 ## ✍️ Authors <a name = "authors"></a>
 
