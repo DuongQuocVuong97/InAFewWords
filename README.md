@@ -40,13 +40,9 @@ If you are going to use the Python funcion in local, you can install this repo w
 ```
 pip install -r requirements.txt
 ```
-If you only want to play with the results, go to the [StreamLit web app](https://share.streamlit.io/amloii/inafewwords/main/streamlit/streamlit_app.py)
 
 ## 🎈 Usage <a name="usage"></a>
 
-We pretent this repo can be useful for people with no knowdelege of IA, software development. For this reason, we are going to implement this with two user cases:
-
-- **StreamLit Web App:** A public web app any can use. [Press here](https://share.streamlit.io/amloii/inafewwords/main/streamlit/streamlit_app.py)
 - **Python function:** A python function easy to use in our own scripts. [Press here](https://github.com/Amloii/InAFewWords/blob/main/function/summarize_function.py)
 
 ## ✍️ Authors <a name = "authors"></a>
